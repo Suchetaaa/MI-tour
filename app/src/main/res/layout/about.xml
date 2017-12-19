@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:lineSpacingExtra="1dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="17dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="MI Tour is a new concept introduced for enhancing the user experience of visitors attending Mood Indigo. It is an overwhelming experience for the first timers to attend all highlight events of Mood Indigo. An itinerary covering various events of different genres will be covered so that participants get involved in cult of MI. These group of students will get a VIP treatment all over the festival and will have a special entry for all scheduled events.
+" />
+</LinearLayout>

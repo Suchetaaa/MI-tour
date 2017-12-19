@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Once you have boarded and tour has been started you are not allowed to leave the tour in between of the pre-defined schedule. Only in case of emergency with permission of the assigned coordinator exception will be made.
+"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Drinking and smoking is strictly prohibited in the campus."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Any misbehaviour will not be entertained and strict action will be taken against the defaulter."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Vulgarity and obscenity will not be entertained in any form."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Itinerary is subjected to change in case of undue circumstances."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Only 1 day pronites passes are paid. VIP entry will not be provided through MI Tour. However passes will be provided on ID card."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. In case of any issues please contact the assigned coordinator."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp" />
+
+
+
+    </LinearLayout>
+</ScrollView>
