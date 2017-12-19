@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 public class CodeofConduct extends Fragment {
 
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
         return inflater.inflate(R.layout.codeofconduct, container, false);

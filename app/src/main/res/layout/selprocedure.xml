@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:textColor="#FFFFFF">
 
     <TextView
         android:layout_width="match_parent"
@@ -12,25 +13,37 @@
         android:layout_marginRight="5dp"
         android:layout_marginTop="10dp"
         android:text="1. MI Tour will be a special event organised by our team to cater the newcomers and online competition winners.
-" />
+"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="2. A group of students will be prefered over single entries."
         android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="3. A competition form is floated on the Mood Indigo website and facebook page for registration."
         android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="4. Shortlisted participants and the waiting list participants will be personally informed and the list will be put up on website."
         android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
+        android:layout_marginLeft="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp"
+        android:layout_marginBottom="20dp"/>
 
 </LinearLayout>

@@ -1,36 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="38dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="5dp"
-        android:layout_marginTop="10dp"
-        android:text="1. MI Tour will be a special event organised by our team to cater the newcomers and online competition winners.
-" />
-
-    <TextView
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="2. A group of students will be prefered over single entries."
-        android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="3. A competition form is floated on the Mood Indigo website and facebook page for registration."
-        android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="4. Shortlisted participants and the waiting list participants will be personally informed and the list will be put up on website."
-        android:layout_marginRight="5dp"
-        android:layout_marginLeft="10dp"/>
+        android:orientation="vertical">
 
-</LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. All MI Tour participants should be accompanied by the guide assigned to them, no entry will be provided in case they left the tour in between or reach any venue without the guide.
+"
+            android:textSize="17dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Each participant will have a MI Tour Badge (required for entries) ,  entry will not be provided without this badge, there will not be any duplicate badge issued in case the badge is lost or damaged
+"
+            android:textSize="17dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Badges will have a validity of one day, exchange/selling of badges is strictly prohibited
+"
+            android:textSize="17dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. You must collect your badge from the guide everyday according to the schedule."
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. The schedule set for a particular day will be strictly followed and late comers would not be given entry
+"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. Once you have boarded and tour has been started you are not allowed to leave the tour in between of the pre-defined schedule. Only in case of emergency with permission of the assigned coordinator exception will be made."
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7. MI Tour itinerary will be put up on the website www.moodi.org by 19th December, 2017"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="8. MI Tour for a particular day will end after the Concerts, those who are not availing accommodation should leave the campus after Concert"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Final list of selected participants for MI Tour would be put up on www.moodi.org."
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10. Participants who will be selected for MI Tour should report at 8:00 am on 22nd December, 2017 with their ID cards
+"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="11. The decision of the organiser shall be final and binding
+"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="17dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+</ScrollView>
